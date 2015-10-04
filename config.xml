@@ -2,7 +2,7 @@
 	<script id="gcccssubjectsadvising"/>
 		<name>HALA2016</name>
 		<description>Who would win a fake presidential elections for 2016 if the people of social media votes? No age limit, no biometrics just vote with your social media account and see who social media deems worthy</description>
-		<author>Jimuel Limpioso</author>
+		<author>Ashbee Morgado</author>
 		
 		<gap:platforms>
 			<gap:platform name="ios"/>
@@ -39,6 +39,10 @@
 
 		<feature name="Media">
 			<param name="android-package" value="org.apache.cordova.media.AudioHandler"/>
+		</feature>
+		
+		<feature name="org.apache.cordova.facebook.Connect">
+		    <param name="android-package" value="org.apache.cordova.facebook.ConnectPlugin" />
 		</feature>
 
 		<preference name="orientation" value="auto"/>
